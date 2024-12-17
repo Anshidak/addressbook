@@ -1,0 +1,59 @@
+body{ margin:0; padding: 0; box-sizing:border-box; }
+
+body{ background-color: #f2f2f2; font-family: Ariel, sans-serif;}
+
+.container{ margin: 20px auto; width: 80%; padding: 20px; background-color: #fff;
+           box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);}
+
+.menu{ background-color: #fff; font-size:18px; padding:20px }
+
+.menu ul{ list-style: none; display: flex; }
+
+.menu li{ flex:1; margin: 0 10px; text-align: center; background-color: #f2f2f2;}
+
+.menu li a{ color: #333; display: block; padding: 10px;
+            text-decoration: none; border-radius: 5px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            transition: color, box-shadow 0.2s ease;}
+.menu li a:hover{ color:#f00; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); }
+
+h1{ text-align:center; margin-top: 20px }
+
+.search{ display:flex; align-items:center; margin-bottom: 20px; }
+
+.search input[type= "search"]{ flex:1; padding: 10px; border-radius: 5px; border: none;
+                              border-bottom: 2px solid #ddd; }
+
+.search input[type= "search"]:focus{ outline: none;}
+                        
+
+.search button{ background-color:hsl(122, 70%, 36%); color: #fff; padding: 10px; border:none;
+               border-radius: 5px; margin-left: 10px; cursor: pointer;}
+
+
+table{ border-collapse: collapse; width: 100%; margin-top: 20px;}
+
+table th, table td{ padding: 10px; text-align:left; border-bottom: 1px solid #ddd; }
+
+table th{ background-color:hsl(122, 70%, 36%); color: #fff; }
+
+.icon{ display: inline-block; width: 24px; height: 24px; margin-right:10px;  }
+
+.icon-edit::before{ content:"\f044"; font-family:"Font Awsome 5 Free"; font-weight: 900;}
+
+.icon-delete::before{ content:"\f2ed"; font-family:"Font Awsome 5 Free"; font-weight: 900;}
+
+tbody tr:hover{ background-color: #f1f1f1; }
+
+tbody td{ border-bottom:1px solid #7a7171; color: #555;}
+
+tbody td:last-child a{ color: #555; text-decoration:none; }
+
+tbody td:last-child a:hover{ color: #811c1c; }
+
+.icon-add-container{ display:flex; justify-content: center; margin-top: 20px; }
+
+.icon-add{ display: flex; align-items: center; justify-content: center; width:3em; height: 3em;
+          background-color: #080a15; color: #fff; border-radius: 50%;
+          text-decoration: none; font-size: 1.0em; cursor:pointer; }
+
+
